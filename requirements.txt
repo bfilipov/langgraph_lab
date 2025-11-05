@@ -1,0 +1,5 @@
+langgraph>=0.0.40
+langchain-community>=0.4.1
+langchain-core>=0.3.79
+langchain_ollama>=1.0
+langchain-groq>=1.0
