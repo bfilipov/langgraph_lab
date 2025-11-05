@@ -3,8 +3,8 @@ from langgraph.graph import StateGraph
 from langgraph.checkpoint.memory import InMemorySaver
 
 
-from src.models import EmailAgentState
-from src.nodes import (
+from email_responder.models import EmailAgentState
+from email_responder.nodes import (
     classify_intent,
     read_email,
     search_documentation,

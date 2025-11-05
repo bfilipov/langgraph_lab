@@ -4,8 +4,8 @@ from typing import Literal
 from langgraph.constants import END
 from langgraph.types import Command, interrupt
 
-from src.llm import llm
-from src.models import EmailAgentState, EmailClassification
+from email_responder.llm import llm
+from email_responder.models import EmailAgentState, EmailClassification
 
 def read_email(state: EmailAgentState) -> EmailAgentState:
     """Read an email from an external source and adds it to the state"""
